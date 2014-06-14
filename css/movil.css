@@ -1,0 +1,71 @@
+body,html{
+	margin:0; padding-top:20px;
+	color: #000;
+	font-family:tahoma;
+	}
+h1,h2,h3,h4,h5,h6,p{margin:0; padding:0;}
+
+h1{text-align:center; font-size:24px;}
+h2{text-align:center; font-size:14px; font-weight:normal;}
+
+
+/* --------------------CAPAS ------------------ */
+#CONTENEDOR{margin:0px auto;}
+
+#capacabecera{
+	position:fixed;
+  	top:0;
+	width:100%; height:20px;
+	padding:10px;
+	background:#000;
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+	}
+	#volver{float:left;}
+	#titulo{float:left; margin-left:30px;}
+
+#MARCA{background:#F90; padding-bottom:10px;}
+#MARCA ul{margin:0; padding:0; list-style:none;}
+#MARCA ul li{
+	float:left;
+	width:125px; height:auto; 
+	margin:5px; padding:10px;
+	border-radius:5px;
+	text-align:center;
+	background:#fff;
+	box-shadow:0 5px 5px rgba(0,0,0,4);
+	}
+#MARCA ul li a{
+	display:block; 
+	font-size:12px;
+	text-decoration:none;
+	font-weight:800;
+	color:#000;
+	}
+
+#TIPO{background:#F90; padding:5px;}
+#TIPO ul{margin:0; padding:0; list-style:none;}
+#TIPO ul li{
+	width:auto; height:auto; 
+	border-radius:5px;
+	text-align:left;
+	box-shadow:0 5px 5px rgba(0,0,0,4);
+	background:url(../pics/siguiente.png) #fff no-repeat center left;
+	background-position:10px;
+	}
+#TIPO ul li a{
+	display:block;
+	margin-bottom:10px; padding:10px 10px 10px 50px; 
+	font-size:12px;
+	text-decoration:none;
+	font-weight:800;
+	color:#000;
+	}
+
+section{background:#F90; padding:5px;}
+.PRODUCTO{padding:5px; margin-bottom:5px; border:1px #999 dashed; font-size:12px; background:#fff;}
+	.PRODUCTO img{float:left; background:#9F6;}
+	.PRODUCTO .detalleproducto{float:left; margin-left:10px;}
+
+footer{padding:10px; background:#000; color:#FFF; text-align:center; font-size:10px; font-weight:800;}
